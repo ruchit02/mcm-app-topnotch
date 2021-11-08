@@ -60,5 +60,5 @@ spec:
           value: root
         - name: MYSQL_DATABASE
           value: employeedocumentdetails
-        securityContext:
-            privileged: true
+        #securityContext:
+        #    privileged: true
