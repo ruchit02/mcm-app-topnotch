@@ -44,7 +44,7 @@ spec:
     spec:
       containers:
         - name: doc-cont
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           image: t0pn0tch/photo-image
           ports:
             - name: doc-port
