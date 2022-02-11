@@ -45,7 +45,7 @@ spec:
       containers:
         - name: auth-cont
           imagePullPolicy: Always
-          image: t0pn0tch/auth-image:"$ID"
+          image: t0pn0tch/auth-image:14
           ports:
             - name: auth-port
               containerPort: 8083
